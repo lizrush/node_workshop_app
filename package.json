@@ -1,0 +1,25 @@
+{
+  "name": "demo-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/grunt"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "~4.2.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-sass": "^0.12.1",
+    "jade": "~1.3.0",
+    "morgan": "~1.0.0",
+    "node-sass": "^0.8.6",
+    "static-favicon": "~1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
