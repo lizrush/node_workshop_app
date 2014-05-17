@@ -1,12 +1,16 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #000;
-$accent-color: #255000;
+$accent-color: green;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
 }
 
-h1 {
+.container {
+  max-width: 70%
+}
+
+.home-header {
   color: $accent-color;
 }
