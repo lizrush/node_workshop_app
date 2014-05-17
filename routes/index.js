@@ -14,4 +14,8 @@ router.get('/third-page', function(req, res) {
   res.render('third-page', { title: 'three'});
 });
 
+router.get('/place-kittens', function(req, res) {
+  res.render('place-kittens', { title: 'place kittens'});
+});
+
 module.exports = router;
