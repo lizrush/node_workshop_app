@@ -10,5 +10,8 @@ router.get('/hello', function(req, res) {
   res.render('hello', { title: 'hello'});
 });
 
+router.get('/third-page', function(req, res) {
+  res.render('third-page', { title: 'three'});
+});
 
 module.exports = router;
